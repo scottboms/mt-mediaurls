@@ -1,0 +1,104 @@
+﻿MediaURLs
+=========
+
+by Scott Boms 
+http://www.wishingline.com/
+
+Version 1.0 - Tuesday March 31 2009
+
+
+MediaURLs is a free plugin for Movable Type 4.x that provides a few 
+simple template tags that allow you to easily make use of multiple 
+domains or subdomains to host media assets for your site such as css 
+and javascript files, images, downloads or more.
+
+The original idea for the plugin came from information on the Yahoo! 
+Developer Network's "Performance" site:
+
+http://developer.yahoo.com/performance/rules.html
+
+
+Tags Provided
+-------------
+The plugin provides access to four new template tags which can be used 
+to separate the distribution of your CSS, JS and image files. The values 
+output by these template tags can be configured on the System level in 
+Movable Type.
+
+The <mt:MediaUrl> template tag is intended to be a more generic catch-all 
+tag that can be used if you only want to serve your media assets from a 
+single secondary domain/subdomain.
+
+<mt:JsUrl>
+
+<mt:CssUrl>
+
+<mt:ImagesUrl>
+
+<mt:MediaUrl>
+
+
+Example Use
+-----------
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Homepage</title>
+  <link type="text/css" rel="stylesheet" href="<mt:CssUrl>/master.css" media="screen, projection">
+</head>
+<body>
+  ...
+  <script type="text/javascript" src="<mt:JsUrl>/jquery.js"></script>
+</body>
+</html>
+
+
+Version History
+---------------
+1.0: Tues Mar 21, 2009
+
+*   Initial release.
+
+
+Author
+------
+Scott Boms 
+http://www.wishingline.com/
+
+
+Copyright and License
+---------------------
+
+Copyright (c) 2004 Scott Boms 
+http://www.wishingline.com/)   
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+* Redistributions of source code must retain the above copyright notice,
+  this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+
+* Neither the name "MediaURLs" nor the names of its contributors may
+  be used to endorse or promote products derived from this software
+  without specific prior written permission.
+
+This software is provided by the copyright holders and contributors "as
+is" and any express or implied warranties, including, but not limited
+to, the implied warranties of merchantability and fitness for a
+particular purpose are disclaimed. In no event shall the copyright owner
+or contributors be liable for any direct, indirect, incidental, special,
+exemplary, or consequential damages (including, but not limited to,
+procurement of substitute goods or services; loss of use, data, or
+profits; or business interruption) however caused and on any theory of
+liability, whether in contract, strict liability, or tort (including
+negligence or otherwise) arising in any way out of the use of this
+software, even if advised of the possibility of such damage.
