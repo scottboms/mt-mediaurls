@@ -2,9 +2,9 @@ MediaURLs
 =========
 
 by Scott Boms 
-http://www.wishingline.com/
+http://www.scottboms.com/
 
-Version 1.0 - Tuesday March 31 2009
+Version 1.0.1 - Thursday September 3 2009
 
 
 MediaURLs is a free plugin for Movable Type 4.x that provides a few 
@@ -58,22 +58,24 @@ Example Use
 
 Version History
 ---------------
-1.0: Tues Mar 21, 2009
+1.0.1:  Thursday, September 3, 2009 
+        Moved repository from Subversion to git and updated the plugin to add a custom icon.
 
-*   Initial release.
+1.0:    Tuesday, March 21, 2009
+        Initial release.
 
 
 Author
 ------
 Scott Boms 
-http://www.wishingline.com/
+http://www.scottboms.com/
 
 
 Copyright and License
 ---------------------
 
-Copyright (c) 2004 Scott Boms 
-http://www.wishingline.com/)   
+Copyright (c) 2009 Scott Boms 
+http://www.scottboms.com/)   
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
