@@ -1,11 +1,11 @@
 #
 # MediaURLs -- A plugin to allow the use of separate URLs for media assets
 # 
-# Copyright (c) 2009 Scott Boms/Wishingline
-# <http://www.wishingline.com/>
+# Copyright (c) 2009 Scott Boms
+# <http://www.scottboms.com/>
 #
 
-# Mon 30 March 2009
+# Thursday 3 September 2009
 
 # ---------------------------------------------------------------------------
 # The MIT License 
@@ -38,15 +38,16 @@ use base qw( MT::Plugin );
 use MT::Template::Context;
 use MT::Util qw( rtrim );
 use vars qw($VERSION);
-our $VERSION = '1.0.0';
+our $VERSION = '1.0.1';
 
 my $plugin = MT::Plugin::MediaURLs->new({
   id => 'mediaurls',
   name => 'MediaURLs',
   description => 'Adds the ability to define special media URLs for external resources such as Javascript, CSS and images to help optimize site performance as per the Yahoo! site optimization guidelines.',
-  doc_link => 'http://code.google.com/p/mediaurls/',
+  doc_link => 'http://github.com/scottboms/mt-mediaurls',
   author_name => 'Scott Boms',
-  author_link => 'http://www.wishingline.com',
+  author_link => 'http://www.scottboms.com',
+  icon => 'mu-icon.gif',
   version => $VERSION,
   settings => new MT::PluginSettings([
     ['js_url', { Default => '', Scope => 'system' }],
