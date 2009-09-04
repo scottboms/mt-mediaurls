@@ -38,7 +38,7 @@ use base qw( MT::Plugin );
 use MT::Template::Context;
 use MT::Util qw( rtrim );
 use vars qw($VERSION);
-our $VERSION = '1.0.1';
+our $VERSION = '1.0.2';
 
 my $plugin = MT::Plugin::MediaURLs->new({
   id => 'mediaurls',
